@@ -21,3 +21,29 @@ valor_removido= ímpares.remove(ímpares[4])
 print(f"valor removido da posição 4:{valor_removido}")
 print("lista final:", ímpares)
 
+# 3. Na lista fibonacci = [8, 1, 0, 5, 13, 1, 3, 2]:
+# a) Ordene a lista 
+# b) coloque em valor reverso a lista fibonacci
+
+fibonacci = [8, 1, 0, 5, 13, 1, 3, 2]
+fibonacci.sort()
+print(fibonacci)
+fibonacci.reverse() 
+print(fibonacci)
+
+# 4. Na lista pi = [3, 1, 4, 1, 5, 9, 2, 6, 5]:
+# a) Busque o elemento que esta no índice 5 da lista 
+# b) Imprima o tamanho da lista 
+# c) Imprima o valor máximo da lista 
+# d) Imprima o valor mínimo da lista 
+# e) Imprima apenas o resultado [4,5]
+
+pi = [3, 1, 4, 1, 5, 9, 2, 6, 5]
+print(pi[5])
+tamanho_lista = (len(pi))
+print(tamanho_lista)
+valor_máximo =  (max(pi))
+print(valor_máximo)
+valor_mínimo = (min(pi))
+resultado = pi[2:4]
+print("Resultado [4, 5]:", resultado)
