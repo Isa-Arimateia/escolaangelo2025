@@ -12,9 +12,9 @@ if numero >= 0:
 else: 
     print ("ele é negativo") 
         
-numero = int(input("digite um número inteir"))
+numero = int(input("digite um número inteiro"))
 if numero % 2 == 0:
-    print("o numero én par")
+    print("o numero é par")
 else:
     print("o numero é impar")
 
@@ -42,7 +42,7 @@ else:
 
     salário = int(input("digita salário: R$"))
 if salário > 0:
-    print(F("O sálario é R$ {sálario}"))
+    print(f("O sálario é R$ {sálario}"))
 else:
     print("sálario inválido")
 sexo = input("digite o sexo [M, F outro;]")
