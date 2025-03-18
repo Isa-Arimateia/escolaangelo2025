@@ -34,3 +34,15 @@ print(lista_cores.index("azul"))
 lista_numeros_repetidos = [1, 2, 3, 2, 4, 2, 5, 2]
 quantidade = lista_numeros_repetidos.count(2)
 print(f"O número 2 aparece {quantidade} vezes na lista.")
+
+# 7.Ordene a lista em ordem crescente. 
+
+lista_desordenarda = [50, 20, 80, 10, 40]
+lista_desordenarda.sort()
+print(lista_desordenarda)
+
+# 8. Inverta a ordem dos elementos da lista.
+
+lista_invertida = ["maça", "banana", "laranja", "uva"]
+lista_invertida.reverse()
+print(lista_invertida)
