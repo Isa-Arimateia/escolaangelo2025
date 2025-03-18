@@ -7,5 +7,5 @@ print(f"Sofia aparece {nomes.count('sofia')} vezes na lista")
 nomes.sort()
 print(nomes)
 
-nomes.reverse
+nomes.reverse()
 print(nomes)
